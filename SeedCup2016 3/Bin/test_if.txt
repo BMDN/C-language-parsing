@@ -1,0 +1,32 @@
+int apple;  
+int orange;
+orange = 2;
+apple = 1;
+int done = 9;
+if (orange!= 2) printf("%d", apple);
+else apple = -1;
+printf("%d", orange);
+if (done > 8) {
+    int a = 20;
+    int b = 100;
+    if (orange > 3) {
+        apple = 0;
+    }
+    else if (orange <= 2) {
+        apple = 100;
+        a = 25;
+        if (a < 10) {
+            b = 20;
+        } else if (a == 25) {
+            printf("%d\n", a);
+            a = 7;
+        } else if(b == 100) {
+            b = 10;
+        } else {
+            a = -20;
+        }
+    } else apple = 0;
+}
+else {
+    printf("wahahhahha");
+}
